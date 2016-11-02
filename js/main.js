@@ -9,3 +9,10 @@ dinoNames.addEventListener('click', function () {
 
     dinoNames.appendChild(dinoList).style.color = '#404040';
 });
+
+// Change color of main heading when moused over
+var header = document.getElementsByTagName('h1')[0];
+
+header.addEventListener('mouseover', function () {
+    header.style.color = '#e6e600';
+});
