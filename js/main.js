@@ -1,5 +1,5 @@
 
-// Click Event to show names of Jurassic Park Dinosaurs
+// Click Event to add list of Jurassic Park Dinosaurs
 var dinoNames = document.getElementsByTagName('h2')[0];
 
 dinoNames.addEventListener('click', function () {
@@ -19,7 +19,6 @@ header.addEventListener('mouseover', function () {
 
 
 //Change the main image on double-click
-
 var img = document.getElementsByTagName('img')[0];
 
 img.addEventListener('dblclick', function () {
