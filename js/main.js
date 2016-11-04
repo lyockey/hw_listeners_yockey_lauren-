@@ -16,3 +16,12 @@ var header = document.getElementsByTagName('h1')[0];
 header.addEventListener('mouseover', function () {
     header.style.color = '#e6e600';
 });
+
+
+//Change the main image on double-click
+
+var img = document.getElementsByTagName('img')[0];
+
+img.addEventListener('dblclick', function () {
+    img.src = 'http://filmconcertslive.com/wp-content/uploads/2016/01/Jurassic-park-still2.jpg';
+});
