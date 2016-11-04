@@ -1,5 +1,8 @@
 
-// Click Event to add list of Jurassic Park Dinosaurs
+// Append a list of Jurassic Park Dinosaurs to second heading when clicked.
+    // Listens for: Click
+    // What's fired: An unordered list is appended to the h2 heading
+
 var dinoNames = document.getElementsByTagName('h2')[0];
 
 dinoNames.addEventListener('click', function () {
@@ -10,7 +13,9 @@ dinoNames.addEventListener('click', function () {
     dinoNames.appendChild(dinoList).style.color = '#404040';
 });
 
-// Change color of main heading when moused over
+// Change the color of the main heading when moused over.
+    // Listens for: mouseover
+    // What's fired: The h1 heading text changes color from red to yellow
 var header = document.getElementsByTagName('h1')[0];
 
 header.addEventListener('mouseover', function () {
@@ -18,7 +23,9 @@ header.addEventListener('mouseover', function () {
 });
 
 
-//Change the main image on double-click
+//Change the source of the main image when double-clicked.
+    // Listens for:  double-click
+    // What's fired: The href changes sources to a new image file
 var img = document.getElementsByTagName('img')[0];
 
 img.addEventListener('dblclick', function () {
